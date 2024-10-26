@@ -1,0 +1,88 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #a8e063, #56ab2f);
+}
+
+.formWrapper {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+}
+
+.tabContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.tabButton {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    color: #555;
+    transition: 0.3s;
+}
+
+.activeTab {
+    background-color: #2b7730;
+    color: white;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.inputGroup {
+    position: relative;
+}
+
+.inputGroup input {
+    width: 100%;
+    padding: 10px 40px 10px 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    outline: none;
+}
+
+.icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: #aaa;
+}
+
+.rememberMe {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #555;
+}
+
+.submitButton {
+    padding: 12px;
+    border: none;
+    border-radius: 25px;
+    background-color: #2b7730;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.submitButton:hover {
+    background-color: #53a659;
+}
+
