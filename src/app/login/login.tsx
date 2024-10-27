@@ -1,6 +1,8 @@
 'use client';
 import React, { useState } from "react";
+import Image from 'next/image';
 import Style from "./login.module.css";
+import Link from "next/link";
 
 export default function LoginComponent() {
     const [isSignUpActive, setIsSignUpActive] = useState(false);
@@ -10,8 +12,17 @@ export default function LoginComponent() {
     return (
         <div className={Style.container}>
             <div className={Style.formWrapper}>
-                {/* Abas de navegação entre Login e Cadastro */}
+                <Link href="/dashboardProg"> Meu perfil </Link>
+                <div className={Style.avatar}>
+                    <img 
+                    src="/avatar.jpeg" alt="Meu avatar" 
+                    width={150} height={150}
+                    style={{ borderRadius: '50%' }}
+                    ></img>
+                </div>
+
                 <div className={Style.tabContainer}>
+
                     <button
                         className={`${Style.tabButton} ${!isSignUpActive ? Style.activeTab : ""}`}
                         onClick={() => setIsSignUpActive(false)}

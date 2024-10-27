@@ -8,7 +8,7 @@ export function WaterIntakeCalculator() {
 
     const calculateWaterIntake = () => {
         if (weight) {
-            const intake = weight * 35; // 35 ml per kg of body weight
+            const intake = weight * 35; 
             setWaterIntake(Number(intake.toFixed(2)));
         }
     };
