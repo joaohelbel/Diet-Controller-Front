@@ -15,7 +15,7 @@ export default function LoginComponent() {
                 <Link href="/dashboardProg"> Meu perfil </Link>
                 <div className={Style.avatar}>
                     <img 
-                    src="/avatar.jpeg" alt="Meu avatar" 
+                    src="/Pholder.png" alt="Meu avatar" 
                     width={150} height={150}
                     style={{ borderRadius: '50%' }}
                     ></img>

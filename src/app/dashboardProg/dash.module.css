@@ -29,10 +29,10 @@
 }
 
 .paper {
-    background-color: #ffffff; /* Branco para leveza */
+    background-color: #ffffff;
     padding: 1.5rem;
     border-radius: 1rem;
-    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05); /* Sombra suave */
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05);
 }
 
 .sectionTitle {
@@ -46,29 +46,29 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #f7fafc; /* Fundo neutro e leve */
+    background-color: #f7fafc;
     border-radius: 0.8rem;
     padding: 1.5rem;
     margin-top: 1rem;
 }
 
 .valueText {
-    color: #2d3748; /* Cinza escuro */
+    color: #2d3748;
     font-weight: bold;
     margin: 0.3rem 0;
 }
 
 .valueSubtitle {
-    color: #718096; /* Cinza médio */
+    color: #718096;
     font-size: 0.875rem;
 }
 
 .iconButton {
-    color: #38a169; /* Verde suave */
+    color: #38a169;
 }
 
 .waterMonitor {
-    background-color: #e6fffa; /* Verde claro para hidratação */
+    background-color: #e6fffa;
     padding: 1.5rem;
     border-radius: 1rem;
 }
@@ -97,11 +97,11 @@
 .nutrientProgress {
     height: 0.4rem;
     border-radius: 0.25rem;
-    background-color: #edf2f7; /* Fundo leve para barras */
+    background-color: #edf2f7;
 }
 
 .progressFill {
-    background-color: #48bb78; /* Verde suave para preenchimento */
+    background-color: #48bb78;
 }
 
 .mealsSection {
@@ -119,12 +119,12 @@
 }
 
 .mealAvatar {
-    background-color: #e6fffa; /* Verde claro para refeição */
+    background-color: #e6fffa;
     color: #38a169;
 }
 
 .mealCalories {
-    color: #718096; /* Cinza médio */
+    color: #718096;
     font-size: 0.875rem;
 }
 

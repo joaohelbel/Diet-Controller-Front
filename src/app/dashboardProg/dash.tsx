@@ -221,7 +221,7 @@ export default function Dashboard() {
                 {/* Monitor de Água */}
                 <Grid item xs={12} md={6}>
                     <Paper className={styles.waterMonitor}>
-                        <Typography className={styles.sectionTitle} sx={{ color: '#ffffff' }}>Monitor de Água</Typography>
+                        <Typography className={styles.sectionTitle} sx={{ color: '#0000' }}>Monitor de Água</Typography>
                         <Box className={styles.valueBox}>
                             <Typography className={styles.valueSubtitle}>Objetivo: 2,00 L</Typography>
                             <Typography variant="h3" className={styles.valueText}>0,00 L</Typography>

@@ -17,7 +17,7 @@ export default function Calculadora() {
     };
 
     return (
-        <Box className={styles.container}>
+        <Box className={styles.containerFull}>
             <Typography variant="h4" align="center" gutterBottom className={styles.title}>
                 Calculadora de Saúde
             </Typography>

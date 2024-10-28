@@ -17,8 +17,8 @@ export function WaterIntakeCalculator() {
         <div className={Style.container}>
             <h1>Calculadora de Ingestão de Água</h1>
             <div className={Style.formGroup}>
-                <label>Peso (kg)</label>
-                <input
+                <label className={Style.labelUser}>Peso (kg)</label>
+                <input className={Style.inputUser}
                     type="number"
                     value={weight}
                     onChange={(e) => setWeight(Number(e.target.value))}

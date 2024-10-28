@@ -39,8 +39,8 @@ export default function CalorieCalculator() {
         <div className={Style.container}>
             <h1>Calculadora de Calorias</h1>
             <div className={Style.formGroup}>
-                <label>Idade</label>
-                <input
+                <label className={Style.labelUser}>Idade</label>
+                <input className={Style.inputUser}
                     type="number"
                     value={age}
                     onChange={(e) => setAge(Number(e.target.value))}
@@ -48,8 +48,8 @@ export default function CalorieCalculator() {
                 />
             </div>
             <div className={Style.formGroup}>
-                <label>Peso (kg)</label>
-                <input
+                <label className={Style.labelUser}>Peso (kg)</label>
+                <input className={Style.inputUser}
                     type="number"
                     value={weight}
                     onChange={(e) => setWeight(Number(e.target.value))}
@@ -57,8 +57,8 @@ export default function CalorieCalculator() {
                 />
             </div>
             <div className={Style.formGroup}>
-                <label>Altura (cm)</label>
-                <input
+                <label className={Style.labelUser}>Altura (cm)</label>
+                <input className={Style.inputUser}
                     type="number"
                     value={height}
                     onChange={(e) => setHeight(Number(e.target.value))}
@@ -66,15 +66,15 @@ export default function CalorieCalculator() {
                 />
             </div>
             <div className={Style.formGroup}>
-                <label>Gênero</label>
-                <select value={gender} onChange={(e) => setGender(e.target.value)}>
+                <label className={Style.labelUser}>Gênero</label>
+                <select className={Style.inputUser} value={gender} onChange={(e) => setGender(e.target.value)}>
                     <option value="male">Masculino</option>
                     <option value="female">Feminino</option>
                 </select>
             </div>
             <div className={Style.formGroup}>
-                <label>Nível de Atividade</label>
-                <select value={activityLevel} onChange={(e) => setActivityLevel(e.target.value as 'sedentary' | 'lightlyActive' | 'moderatelyActive' | 'veryActive' | 'superActive')}>
+                <label className={Style.labelUser}>Nível de Atividade</label>
+                <select className={Style.inputUser} value={activityLevel} onChange={(e) => setActivityLevel(e.target.value as 'sedentary' | 'lightlyActive' | 'moderatelyActive' | 'veryActive' | 'superActive')}>
                     <option value="sedentary">Sedentário</option>
                     <option value="lightlyActive">Levemente ativo</option>
                     <option value="moderatelyActive">Moderadamente ativo</option>

@@ -19,8 +19,8 @@ export function BMICalculator() {
         <div className={Style.container}>
             <h1>Calculadora de IMC</h1>
             <div className={Style.formGroup}>
-                <label>Peso (kg)</label>
-                <input
+                <label className={Style.labelUser}>Peso (kg)</label>
+                <input className={Style.inputUser}
                     type="number"
                     value={weight}
                     onChange={(e) => setWeight(Number(e.target.value))}
@@ -28,8 +28,8 @@ export function BMICalculator() {
                 />
             </div>
             <div className={Style.formGroup}>
-                <label>Altura (cm)</label>
-                <input
+                <label className={Style.labelUser}>Altura (cm)</label>
+                <input className={Style.inputUser}
                     type="number"
                     value={height}
                     onChange={(e) => setHeight(Number(e.target.value))}

@@ -8,6 +8,5 @@ export default function Sobre() {
         <About />
     </div>
     
-
   );
 }
