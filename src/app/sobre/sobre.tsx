@@ -92,27 +92,7 @@ export default function Sobre() {
         </List>
       </Box>
 
-      {/* Seção de Equipe */}
-      <Box className={styles.section}>
-        <Typography variant="h5" className={styles.subtitle}>Nossa Equipe</Typography>
-        <Grid container spacing={4} justifyContent="center">
-          <Grid item xs={12} sm={6} md={3} className={styles.avatarContainer}>
-            <Avatar src="/path/to/avatar1.jpg" className={styles.avatar} />
-            <Typography variant="subtitle1">João Silva</Typography>
-            <Typography variant="body2" color="textSecondary">Nutricionista</Typography>
-          </Grid>
-          <Grid item xs={12} sm={6} md={3} className={styles.avatarContainer}>
-            <Avatar src="/path/to/avatar2.jpg" className={styles.avatar} />
-            <Typography variant="subtitle1">Maria Oliveira</Typography>
-            <Typography variant="body2" color="textSecondary">Desenvolvedora</Typography>
-          </Grid>
-          <Grid item xs={12} sm={6} md={3} className={styles.avatarContainer}>
-            <Avatar src="/path/to/avatar3.jpg" className={styles.avatar} />
-            <Typography variant="subtitle1">Carlos Santos</Typography>
-            <Typography variant="body2" color="textSecondary">Designer</Typography>
-          </Grid>
-        </Grid>
-      </Box>
+      
 
       {/* Contato */}
       <Box className={styles.contactSection}>

@@ -1,0 +1,77 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    min-height: 100vh;
+    background-color: #f7f9fc;
+}
+
+.paper {
+    padding: 20px;
+    max-width: 800px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    color: #4caf50;
+    text-align: center;
+}
+
+.subtitle {
+    color: #6b6b6b;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.question {
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.radioGroup {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.textField {
+    margin-bottom: 20px;
+}
+
+.button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.modalContent {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.modalImage {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.modalTitle {
+    font-size: 24px;
+    color: #4caf50;
+    margin-bottom: 10px;
+}
+
+.modalText {
+    font-size: 16px;
+    color: #6b6b6b;
+    margin-bottom: 20px;
+}
