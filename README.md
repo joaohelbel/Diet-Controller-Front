@@ -1,28 +1,50 @@
-# Laboratório Experimental - Sistemas de Informação ESPM
+# Diet Controller (front-end)
 
-<p align="center">
-    <a href="https://www.espm.br/cursos-de-graduacao/sistemas-de-informacao/"><img src="https://raw.githubusercontent.com/tech-espm/misc-template/main/logo.png" alt="Sistemas de Informação ESPM" style="width: 375px;"/></a>
-</p>
+Front-end de um sistema de acompanhamento nutricional, feito para a Diet Controller como projeto do Laboratório Experimental de Sistemas de Informação da ESPM (2024).
 
-# Diet Controller (Frontend)
+A ideia do produto é ajudar pacientes a acompanhar a alimentação com tabelas nutricionais e sugestões. Neste repositório está a parte que a pessoa usa: as páginas, as calculadoras e o dashboard, com dados de exemplo no lugar da API.
 
-### 2024-02
+## O que tem
 
-## Integrantes
-- [João Helbel](https://github.com/joaohelbel)
+- **Página inicial** com os caminhos principais do app.
+- **Login e cadastro**.
+- **Calculadoras** de calorias, IMC e consumo de água.
+- **Dashboard de progresso** com gráfico de calorias (consumidas, restantes e gastas), evolução ao longo do tempo, hidratação e refeições do dia.
+- **Páginas institucionais**: o que é o Diet Controller, "posso ajudar?" e sobre.
 
-## Cliente do Projeto
+## Stack
 
-Empresa Diet Controller.
+- Next.js 15 (App Router) e React 18
+- TypeScript
+- Material UI e CSS Modules
+- Chart.js com react-chartjs-2
+- React Icons
 
-## Descrição do Projeto
+## Rodar localmente
 
-Sistema para gerenciamento de tabelas nutricionais e de sugestões alimentares para pacientes.
+Precisa de Node.js 18 ou mais novo.
 
-# Licença
+```bash
+npm install
+npm run dev
+```
 
-Este projeto é licenciado sob a [MIT License](https://github.com/joaohelbel/Diet-Controller-Front/blob/main/LICENSE).
+E abrir `http://localhost:3000`.
 
-<p align="right">
-    <a href="https://www.espm.br/cursos-de-graduacao/sistemas-de-informacao/"><img src="https://raw.githubusercontent.com/tech-espm/misc-template/main/logo-si-512.png" alt="Sistemas de Informação ESPM" style="width: 375px;"/></a>
-</p>
+## Estrutura
+
+```
+src/app/
+  page.tsx                  página inicial
+  login/                    login e cadastro
+  calculadora/              calculadoras de calorias, IMC e água
+  dashboardProg/            dashboard de progresso
+  o-que-e-diet/             apresentação do produto
+  entenda-o-que-precisa/    "posso ajudar?"
+  sobre/                    sobre
+  navbar.tsx                navegação
+```
+
+## Licença
+
+[MIT](LICENSE)
